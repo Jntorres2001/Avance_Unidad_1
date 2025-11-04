@@ -37,14 +37,14 @@ Relación principal:
 
 ---
 ### 4. Resultados 
- 1. Sistema NoSQL – MongoDB ![repositorio](capturas/imagen1.png)
+ 1. Sistema NoSQL – MongoDB ![repositorio](capturas/imagen2.png)
  Explicación: En esta imagen se muestra la creación de la base de datos techstore_inventory y la inserción de varios documentos en la colección productos. Cada producto incluye campos estructurados (sku, nombre, precio_unitario, stock) y un documento anidado “especificaciones” que demuestra la flexibilidad de MongoDB.
 
-2. Consulta db.productos.find().pretty() mostrando los productos almacenados.![repositorio](capturas/image3.png)
+2. Consulta db.productos.find().pretty() mostrando los productos almacenados.![repositorio](capturas/imagen1.png)
  Explicación: Aquí se observa cómo MongoDB permite manejar diferentes estructuras dentro de la misma colección.
 Por ejemplo, algunos productos pueden tener atributos adicionales como “color”, “marca” o “memoria”, sin que sea necesario modificar un esquema rígido.
 
-3. Sistema Relacional – PostgreSQL![repositorio](capturas/imagen2.png)
+3. Sistema Relacional – PostgreSQL![repositorio](capturas/imagen.png)
 Explicación:
 Se muestra la creación correcta de las tablas clientes, sucursales, ventas y detalle_ventas, junto con sus llaves primarias y foráneas.
 Esto garantiza la integridad referencial del sistema relacional.
